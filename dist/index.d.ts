@@ -1,2 +1,4 @@
 import { useClickOutside } from "./useClickOutside";
-export { useClickOutside };
+import { useFocus } from "./useFocus";
+import { useForceUpdate } from "./useForceUpdate";
+export { useClickOutside, useFocus, useForceUpdate };
