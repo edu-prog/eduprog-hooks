@@ -19,6 +19,6 @@ export const useClickOutside = (
 		return () => {
 			document.removeEventListener("mousedown", handler);
 			document.removeEventListener("touchstart", handler);
-		}
-	}, [ref, callback])
+		};
+	}, [ref, callback]);
 };
