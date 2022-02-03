@@ -1,1 +1,2 @@
-export declare const Hello: () => string;
+import { useClickOutside } from "./useClickOutside";
+export { useClickOutside };

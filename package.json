@@ -7,12 +7,15 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "@types/react": "^17.0.39",
     "prettier": "^2.5.1",
     "ts-loader": "^9.2.6",
     "tsconfig-paths-webpack-plugin": "^3.5.2",
     "typescript": "^4.5.5",
     "webpack": "^5.68.0",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "react": "^18.0.0-rc.0-next-3a4462129-20220201",
+    "react-dom": "^18.0.0-rc.0-next-3a4462129-20220201"
   },
   "files": [
     "dist"
