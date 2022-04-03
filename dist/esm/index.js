@@ -1,7 +1,3 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
 function createCommonjsModule(fn) {
   var module = { exports: {} };
 	return fn(module, module.exports), module.exports;
@@ -2568,8 +2564,4 @@ const useTimer = (time) => {
     return { leftTime };
 };
 
-exports.useClickOutside = useClickOutside;
-exports.useFocus = useFocus;
-exports.useForceUpdate = useForceUpdate;
-exports.useHover = useHover;
-exports.useTimer = useTimer;
+export { useClickOutside, useFocus, useForceUpdate, useHover, useTimer };
